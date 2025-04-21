@@ -14,23 +14,22 @@ namespace Consoledocumation
 
             Console.WriteLine("Information Input");
 
-            Console.WriteLine("what is your first name?");// input firstname
-            string firstname = Console.ReadLine();//first name
+            Console.WriteLine("what is your first name?");//string variable input for firstname 
+            string firstname = Console.ReadLine();
 
-            Console.WriteLine("what is your last name?");//input lastname
-            string lastname = Console.ReadLine();//last name
-
-
-            Console.WriteLine("Enter your age:");//input age
-            int age = Convert.ToInt32(Console.ReadLine());// age
+            Console.WriteLine("what is your last name?");//string variable input for lastname
+            string lastname = Console.ReadLine();
 
 
-            Console.WriteLine("What is your favorate color?");//input color 
-            string color = Console.ReadLine();// color
+            Console.WriteLine("Enter your age:");//string variable input for age
+            int age = Convert.ToInt32(Console.ReadLine());
 
 
-            Console.WriteLine("Hello," + firstname + lastname + "! You are" + age + " year old and your favorite color is " + color);// output
+            Console.WriteLine("What is your favorate color?");//string variable input or color
+            string color = Console.ReadLine();
 
+            //Printing the variable (firstname, lastname, age, color) to show the input value
+            Console.WriteLine("Hello," + firstname+ " " + lastname + "! You are  "+ age +  " year old and your favorite color is " + color);
 
         }
 
